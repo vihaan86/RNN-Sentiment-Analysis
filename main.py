@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-from tensorflow.keras.datasets import imdb
-from tensorflow.keras.utils import pad_sequences
-from tensorflow.keras.models import load_model
-from tensorflow.keras.layers import Embedding,SimpleRNN,Dense
+from keras.datasets import imdb
+from keras.utils import pad_sequences
+from keras.models import load_model
+from keras.layers import Embedding,SimpleRNN,Dense
 
 #Load the IMDB dataset word index
 word_index = imdb.get_word_index()
